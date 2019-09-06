@@ -30,11 +30,9 @@ describe('App', () => {
 			await page.clickButton('LOGIN');
 
 			//need to wait to give page time to load...
-			setTimeout(async function () {
-				await page.getElementTextByClass('TEXT').then(x => {
-					expect(x).toEqual('Home');
-				});
-			}, 2000);
+			await page.getElementTextByClass('TITLE').then(x => {
+				expect(x).toEqual('Home');
+			});
 
 		});
 		

@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ui-ux-partial/node_modules
+/ui-ux-partial/www
+/ui-ux-partial/.sourcemaps
